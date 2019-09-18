@@ -1,0 +1,8 @@
+<div class="row" *ngFor="let content of contents; let i = index">
+<div class="col-sm-3">
+  {{ content }}
+</div>
+<div class="col-sm-3">
+  <button class="button" (click)="addToGroup1(i)">Add to group 1</button>
+</div>
+</div>
